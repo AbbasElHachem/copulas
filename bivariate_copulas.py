@@ -5,12 +5,13 @@ Created on %(date)s
 @author: EL Hachem Abbas,
 Institut fuer Wasser- und Umweltsystemmodellierung - IWS
 """
-# import scipy.stats as stats
+
+'''
+Construct Bivariate Copulas between rainfall and temperature
+'''
 import os
 import time
 import timeit
-
-from mpl_toolkits.mplot3d import Axes3D
 
 
 import matplotlib.pyplot as plt
